@@ -5,9 +5,9 @@
 
 #include <cppx-testing/boost-test-framework.hpp>       // boost::*, CPPX_xxx
 
-#include <cppx-core-language/syntax/macro-use.hpp>          // CPPX_USE_STD
-#include <cppx-core-language/syntax/type-builders.hpp>      // cppx::(Raw_array_)
-#include <cppx-core-language/types/C_str_.hpp>              // cppx::C_str
+#include <cppx-core-language/syntax/declarations.hpp>           // CPPX_USE_STD
+#include <cppx-core-language/syntax/types/type-builders.hpp>    // cppx::(Raw_array_)
+#include <cppx-core-language/types/C_str_.hpp>                  // cppx::C_str
 
 #include <string_view>      // std::(wstring, u16string, u32string)
 #include <string_view>      // std::(wstring_view, u16string_view, u32string_view)
